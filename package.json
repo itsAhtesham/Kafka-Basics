@@ -1,0 +1,24 @@
+{
+  "name": "kafka-basics",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -b && node dist/index.js",
+    "produce": "tsc -b && node dist/producer.js",
+    "consume": "tsc -b && node dist/consumer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "kafkajs": "^2.2.4",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/ws": "^8.5.14"
+  }
+}
